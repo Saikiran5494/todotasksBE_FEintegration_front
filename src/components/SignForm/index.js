@@ -25,33 +25,33 @@ class SignForm extends Component {
     const isValidPassword = this.validatePassword();
 
     if (isValidPassword && isValidUsername) {
-      this.submitUserDetails();
+      //this.submitUserDetails();
     } else {
       this.setState({ showFieldsError: true });
     }
   };
 
-  submitUserDetails = async () => {
-    const { userName, password, email } = this.state;
+  //submitUserDetails = async () => {
+  //const { userName, password, email } = this.state;
 
-    const userDetails = {
-      userName,
-      email,
-      password,
-    };
+  //const userDetails = {
+  //userName,
+  //email,
+  //password,
+  //};
 
-    let url = "";
-    const options = {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: JSON.stringify(userDetails),
-    };
+  //let url = "";
+  //const options = {
+  //method: "POST",
+  //headers: {
+  //"Content-Type": "application/json",
+  //Accept: "application/json",
+  //},
+  //body: JSON.stringify(userDetails),
+  //};
 
-    //const createUser = await fetch(url, options);
-  };
+  //const createUser = await fetch(url, options);
+  //};
 
   onBlurUsername = () => {
     const isValidUsername = this.validateUserName();
