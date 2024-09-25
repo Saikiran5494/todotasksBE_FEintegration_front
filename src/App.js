@@ -8,9 +8,9 @@ function App() {
   return (
     <>
       <Switch>
-        <Route exact path="/" component={LoginForm} />
+        <Route exact path="/login" component={LoginForm} />
         <Route exact path="/Signin" component={SignForm} />
-        <Route exact path="/tasks" component={Tasks} />
+        <Route exact path="/" component={Tasks} />
       </Switch>
     </>
   );
