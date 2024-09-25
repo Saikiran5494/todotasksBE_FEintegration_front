@@ -1,0 +1,38 @@
+.task-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(#49b5f8, #a6dbfb);
+  padding: 30px;
+  height: 1000px;
+}
+.line {
+  width: 100%;
+}
+input {
+  width: 50%;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid;
+}
+.list-container {
+  width: 100%;
+  border-radius: 10px;
+  padding: 0;
+  list-style-type: none;
+}
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  margin-top: 20px;
+}
+form {
+  width: 100%;
+  text-align: center;
+}
