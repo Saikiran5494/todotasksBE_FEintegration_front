@@ -50,7 +50,7 @@ class SignForm extends Component {
       body: JSON.stringify(userDetails),
     };
 
-    const createUser = await fetch(url, options);
+    //const createUser = await fetch(url, options);
   };
 
   onBlurUsername = () => {
